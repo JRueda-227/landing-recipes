@@ -1,108 +1,31 @@
 body {
-    margin: 0 auto;
-    padding: 0;
-    line-height: 1;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction:column;
 }
 
-.container {
-    width: 90%;    
-}
-
-.hero {
-    color: white;
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-}
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
+    justify-content: space-between;
 }
 
-.logo {
-    font-weight: bold;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    flex: 1;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    flex: 1;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.block-one {
-    display: flex;
-}
-
-button {
-    background-color: #3882f6 ;
-    flex-grow: 0;
-}
-
-.block-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.info {
-    display: flex;
-    justify-content: center;
     gap: 16px;
 }
 
-.item {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border: 2px solid blue;
-}
-    
-.block-three {
-    background-color: lightgray;
-    height: 150px;
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.quote {
-    font-style: italic;
-    flex-wrap: wrap;
-}
-
-.block-four {
-    background-color: lightblue;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-button {s
+    flex: 1;
 }
 
 .footer {
-    color: white;
-    background-color: #1f2937;
-    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
