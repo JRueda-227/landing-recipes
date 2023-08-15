@@ -1,12 +1,31 @@
 body {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
     height: 100vh;
     display: flex;
     flex-direction:column;
 }
 
+.header,
+.block-one,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 14px;
 }
 
 ul {
@@ -15,17 +34,107 @@ ul {
     padding: 0;
     display: flex;
     gap: 16px;
+    font-size: 12px;
+}
+
+.do-it,
+.press {
+    height: 24px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.block-one {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex: 1;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50px;
 }
 
+.block-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.info-head {
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nodes {
+    display: flex;
+    gap: 32px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+    border: 2px solid blue;
+}
+
+.block-three {
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.person {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.block-four {
+    background-color: aqua;
+    padding: 16px;
+    margin: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    color: white;
+}
+
+.text-head {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+}
